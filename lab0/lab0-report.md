@@ -7,4 +7,4 @@
 - Смереджил ветки
 - подготовил папки для всех отчетов к лабораторным работам
 <img width="2586" height="652" alt="image" src="https://github.com/user-attachments/assets/359f354a-189e-4ac0-b8a3-dc0e93ec12fb" />
-<img width="2586" height="652" alt="image" src="https://github.com/user-attachments/assets/441c4250-4a76-42c4-a97f-26aab4dd7c08" />
+<img width="966" height="1081" alt="image" src="https://github.com/user-attachments/assets/eaf3e98d-ccac-497a-b10f-da7dbf86dfe4" />
