@@ -1,3 +1,17 @@
+**University**: [ITMO University](https://itmo.ru/ru/)
+
+**Faculty**: [FICT](https://fict.itmo.ru)
+
+**Course**: [Введение в веб технологии](https://itmo-ict-faculty.github.io/introduction-in-web-tech/)
+
+**Year**: 2026
+
+**Group**: U4125
+**Author**: Vasilev Anton
+**Lab**: Lab3
+**Date of create**: 16.03.2026
+**Date of finished**: ?
+
 
 - Создал папку prometheus и yml файл к ней с нужным содержимым
 <img width="804" height="189" alt="Снимок экрана 2026-03-16 в 20 42 23" src="https://github.com/user-attachments/assets/a343c8ee-c415-4a3d-b595-c7135d20d93c" />
