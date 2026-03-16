@@ -1,12 +1,16 @@
-University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FICT](https://fict.itmo.ru)
-Course: [Введение в веб технологии](https://itmo-ict-faculty.github.io/introduction-in-web-tech/)
-Year: 2026
-Group: U4125
-Author: Vasilev Anton
-Lab: Lab1
-Date of create: 20.02.2026
-Date of finished: ?
+**University**: [ITMO University](https://itmo.ru/ru/)
+
+**Faculty**: [FICT](https://fict.itmo.ru)
+
+**Course**: [Введение в веб технологии](https://itmo-ict-faculty.github.io/introduction-in-web-tech/)
+
+**Year**: 2026
+
+**Group**: U4125
+**Author**: Vasilev Anton
+**Lab**: Lab1
+**Date of create**: 20.02.2026
+**Date of finished**: ?
 
 
 - Установил докер десктоп и прочекал версии + хеллоу ворлд
