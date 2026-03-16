@@ -40,7 +40,7 @@
 
 <img width="3440" height="1894" alt="image" src="https://github.com/user-attachments/assets/cb320be6-9456-46e2-b5db-ab8adbfd7201" />
 
-Сделал run query и подтянул графики на cup мониторинг , проверил health в prometheus + добавил трекинг memory 
+Сделал run query и подтянул графики на cpu мониторинг , проверил health в prometheus + добавил трекинг memory 
 
 <img width="2394" height="1782" alt="image" src="https://github.com/user-attachments/assets/679bfa43-0ce5-48d8-a6d9-585526748467" />
 
