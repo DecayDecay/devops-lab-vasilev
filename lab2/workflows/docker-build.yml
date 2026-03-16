@@ -1,4 +1,4 @@
-name: Build and push Docker image
+name: Docker CI/CD Pipeline
 
 on:
   push:
@@ -7,10 +7,10 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
@@ -22,13 +22,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push image
-        uses: docker/build-push-action@v6
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
         with:
-          context: ./lab2
-          file: ./lab2/Dockerfile
+          context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest
+          tags: igoryawa/my-flask-app:latest
 
-      - name: Deploy
-        run: echo "Deploy step image pushed to Docker Hub"
+      - name: Deploy step
+        run: echo "Deploy completed successfully"
