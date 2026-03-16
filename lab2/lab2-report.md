@@ -1,11 +1,19 @@
 University: ITMO University
+
 Faculty: FICT
+
 Course: Введение в веб технологии
+
 Year: 2026
+
 Group: U4125
+
 Author: Vasilev Anton
+
 Lab: Lab2
+
 Date of create: 16.03.2026
+
 Date of finished tba
 
 Ход работы:
