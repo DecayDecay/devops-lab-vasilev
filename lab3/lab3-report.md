@@ -43,5 +43,6 @@
 Сделал run query и подтянул графики на cpu мониторинг , проверил health в prometheus + добавил трекинг memory 
 
 <img width="2394" height="1782" alt="image" src="https://github.com/user-attachments/assets/679bfa43-0ce5-48d8-a6d9-585526748467" />
+<img width="1708" height="317" alt="image" src="https://github.com/user-attachments/assets/833fc5fb-e4a7-4857-8c40-6c15ca9e13ed" />
 
 
