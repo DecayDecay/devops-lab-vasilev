@@ -1,3 +1,14 @@
+Лабораторная работа №1
+University: ITMO University
+Faculty: FICT
+Course: Introduction in Web Technologies
+Year: 2026
+Group: U4225
+Lab: Lab1
+Date of create: 20.02.2026
+Date of finished: ?
+
+
 - Установил докер десктоп и прочекал версии + хеллоу ворлд
 - Глянул все образы
 <img width="1214" height="1066" alt="image" src="https://github.com/user-attachments/assets/d109f758-cd58-4134-9f4d-d77cc9e3897a" />
