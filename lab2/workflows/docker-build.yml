@@ -31,4 +31,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest
 
       - name: Deploy
-        run: echo "Deploy step: image pushed to Docker Hub"
+        run: echo "Deploy step image pushed to Docker Hub"
