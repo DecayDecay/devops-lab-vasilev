@@ -1,13 +1,37 @@
-FROM python:3.11-slim
+name: Build and push Docker image
 
-WORKDIR /app
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+jobs:
+  build-and-push:
+    runs-on: ubuntu-22.04
 
-COPY app.py .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-EXPOSE 5000
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-CMD ["python", "app.py"]
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Build and push image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./lab2
+          file: ./lab2/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest
+
+      - name: Deploy
+        run: echo "Deploy step: образ ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest успешно отправлен в Docker Hub"
