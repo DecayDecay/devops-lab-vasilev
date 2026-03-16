@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build-and-push:
@@ -34,4 +31,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest
 
       - name: Deploy
-        run: echo "Deploy step: образ ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest успешно отправлен в Docker Hub"
+        run: echo "Deploy step: image pushed to Docker Hub"
